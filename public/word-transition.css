@@ -1,0 +1,34 @@
+/* Keep the glyph surface sharp. Only its diffuse, skin-tinted halo breathes
+   once when a word arrives; it settles before pronunciation begins. */
+.word-stage.word-arriving #current-word:not(.spelling-display){
+ animation:word-soft-radiance 420ms ease-out both;
+}
+.word-stage.word-leaving #current-word:not(.spelling-display){
+ animation:word-soft-extinguish 190ms ease-in both;
+}
+.word-stage.word-arriving::after{
+ color:rgb(var(--scene-glow,220 201 246)/.92);
+ text-shadow:0 0 8px rgb(var(--scene-glow,220 201 246)/.35),0 0 17px rgb(var(--scene-glow,220 201 246)/.15);
+ animation:word-soft-glint 420ms ease-out both;
+}
+@keyframes word-soft-radiance{
+ 0%{text-shadow:0 0 8px rgb(var(--scene-glow,220 201 246)/.10),0 0 24px rgb(var(--scene-glow,220 201 246)/.06),0 0 48px rgb(var(--scene-tone,161 166 216)/.03)}
+ 35%{text-shadow:0 0 15px rgb(var(--scene-glow,220 201 246)/.35),0 0 34px rgb(var(--scene-glow,220 201 246)/.18),0 0 58px rgb(var(--scene-tone,161 166 216)/.11)}
+ 100%{text-shadow:0 0 13px rgb(var(--scene-glow,220 201 246)/.17),0 0 32px rgb(var(--scene-glow,220 201 246)/.095),0 0 58px rgb(var(--scene-tone,161 166 216)/.07)}
+}
+@keyframes word-soft-extinguish{
+ from{text-shadow:0 0 13px rgb(var(--scene-glow,220 201 246)/.17),0 0 32px rgb(var(--scene-glow,220 201 246)/.095),0 0 58px rgb(var(--scene-tone,161 166 216)/.07)}
+ to{text-shadow:0 0 17px rgb(var(--scene-glow,220 201 246)/.12),0 0 38px rgb(var(--scene-glow,220 201 246)/.065),0 0 62px rgb(var(--scene-tone,161 166 216)/.035)}
+}
+@keyframes word-soft-glint{
+ 0%{opacity:0;transform:scale(.72)}
+ 42%{opacity:.48;transform:scale(1)}
+ 100%{opacity:0;transform:scale(.9) translateY(-2px)}
+}
+.motion-off .word-stage :is(#current-word),
+.motion-off .word-stage.word-arriving::after{animation:none!important}
+.motion-off .word-stage.word-arriving::after{opacity:0}
+@media(prefers-reduced-motion:reduce){
+ .word-stage :is(#current-word),.word-stage.word-arriving::after{animation:none!important}
+ .word-stage.word-arriving::after{opacity:0}
+}

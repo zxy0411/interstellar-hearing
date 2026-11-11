@@ -1,0 +1,115 @@
+/* One palette follows the homepage scenery through every learning surface.
+   Daily voyage deliberately owns its own colours and is never selected here. */
+body[data-skin]{
+ --scene-text:#f2edf9;--scene-muted:#c5b9d5;--scene-dim:#a69ab8;--scene-ink:#30253e;
+ --scene-panel:46 37 64;--scene-base:20 25 42;--scene-tone:161 166 216;--scene-glow:220 201 246;
+ --scene-strong:#f0e4fa;--scene-accent:#ccb8e6;--scene-button-end:#a8b3da;--scene-quote:#e6b4cf;
+ --text:var(--scene-text);--muted:var(--scene-muted);--dim:var(--scene-dim);--lilac:var(--scene-accent);--accent:var(--scene-accent);
+ --scene-pane:radial-gradient(ellipse at 0 0,rgb(var(--scene-glow)/.065),transparent 58%),linear-gradient(140deg,rgb(var(--scene-panel)/var(--surface-pane,.68)),rgb(var(--scene-base)/max(0,calc(var(--surface-pane,.68) - .04))));
+ --scene-player:radial-gradient(ellipse at 8% 0%,rgb(var(--scene-glow)/.09),transparent 55%),linear-gradient(135deg,rgb(var(--scene-panel)/var(--surface-player,.74)),rgb(var(--scene-base)/max(0,calc(var(--surface-player,.74) - .02))) 70%,rgb(var(--scene-tone)/calc(var(--surface-player,.74)*.243)));
+ --scene-soft:linear-gradient(135deg,rgb(var(--scene-glow)/var(--surface-soft,.12)),rgb(var(--scene-tone)/calc(var(--surface-soft,.12)*.375)));
+ --scene-selected:linear-gradient(125deg,rgb(var(--scene-glow)/var(--surface-selected,.22)),rgb(var(--scene-tone)/calc(var(--surface-selected,.22)*.455)));
+ --scene-field:linear-gradient(130deg,rgb(var(--scene-base)/var(--surface-field,.42)),rgb(var(--scene-glow)/calc(var(--surface-field,.42)*.0833)));
+ --scene-dialog:radial-gradient(ellipse at 0 0,rgb(var(--scene-glow)/.12),transparent 55%),linear-gradient(140deg,rgb(var(--scene-panel)/var(--surface-dialog,.94)),rgb(var(--scene-base)/min(1,calc(var(--surface-dialog,.94) + .02))));
+ --scene-primary:linear-gradient(135deg,var(--scene-strong),var(--scene-accent) 56%,var(--scene-button-end));
+ --scene-edge:conic-gradient(from 120deg,rgb(var(--scene-glow)/.50),transparent 55deg,transparent 133deg,rgb(var(--scene-glow)/.64) 193deg,rgb(var(--scene-tone)/.15) 229deg,transparent 267deg,transparent 326deg,rgb(var(--scene-glow)/.50));
+ color:var(--scene-text);
+}
+body[data-skin="carousel"]{
+ --scene-text:#fff2e6;--scene-muted:#ddc8b5;--scene-dim:#b9a28f;--scene-ink:#412827;
+ --scene-panel:61 29 35;--scene-base:30 23 28;--scene-tone:170 105 68;--scene-glow:249 208 155;
+ --scene-strong:#fff0d4;--scene-accent:#e1bf91;--scene-button-end:#c38b72;--scene-quote:#e9b8b7;
+}
+body[data-skin="cathedral"]{
+ --scene-text:#edf1f3;--scene-muted:#c6cdd1;--scene-dim:#a2adb7;--scene-ink:#29343a;
+ --scene-panel:35 45 57;--scene-base:17 25 35;--scene-tone:135 163 183;--scene-glow:226 218 188;
+ --scene-strong:#f3eee0;--scene-accent:#d4cfb7;--scene-button-end:#a5b9ca;--scene-quote:#dfb9c9;
+}
+body[data-skin="sakura"]{
+ --scene-text:#fff0f5;--scene-muted:#dec2d0;--scene-dim:#bba1b6;--scene-ink:#432a3e;
+ --scene-panel:58 33 53;--scene-base:27 27 44;--scene-tone:158 132 181;--scene-glow:249 197 218;
+ --scene-strong:#ffeaf1;--scene-accent:#e7b8cf;--scene-button-end:#b7acd4;--scene-quote:#efbbd5;
+}
+body[data-skin="forest"]{
+ --scene-text:#edf6ee;--scene-muted:#bfd3c6;--scene-dim:#9cb4aa;--scene-ink:#243c32;
+ --scene-panel:28 49 41;--scene-base:13 30 28;--scene-tone:104 149 130;--scene-glow:202 227 193;
+ --scene-strong:#ecf3db;--scene-accent:#b7d1b0;--scene-button-end:#8bb6ab;--scene-quote:#dcbdc7;
+}
+body[data-skin] .app-shell :is(.glass,.input-panel){background:var(--scene-pane);backdrop-filter:blur(16px) saturate(115%);-webkit-backdrop-filter:blur(16px) saturate(115%)}
+/* Nested controls reuse the parent glass instead of sampling the scene again. */
+body[data-skin] .app-shell :is(.glass,.input-panel) :is(.glass,.input-panel,.mode-switch,.segmented,.language-picker){backdrop-filter:none;-webkit-backdrop-filter:none}
+body[data-skin] .topbar .mode-switch{backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+body[data-skin] .app-shell #player{background:var(--scene-player)}
+body[data-skin] .app-shell .glass::before{background:var(--scene-edge);opacity:.74}
+body[data-skin] .player-atmosphere{background:radial-gradient(ellipse at 28% 20%,rgb(var(--scene-glow)/.07),transparent 56%),radial-gradient(ellipse at 100% 100%,rgb(var(--scene-tone)/.10),transparent 60%);opacity:.6}
+body[data-skin] :is(.planet-halo,.orbital){opacity:.24}
+body[data-skin] .floating-star{color:rgb(var(--scene-glow)/.30)}
+body[data-skin] .app-shell #player:fullscreen{background:linear-gradient(135deg,rgb(var(--scene-panel)/.84),rgb(var(--scene-base)/.85)),var(--scene-wallpaper,none) center/cover,rgb(var(--scene-base))}
+body[data-skin] #player:fullscreen>.skin-scene{z-index:-2}
+body[data-skin] #player:fullscreen>.skin-scene::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgb(var(--scene-panel)/var(--surface-fullscreen,.54)),rgb(var(--scene-base)/max(0,calc(var(--surface-fullscreen,.54) - .04))));pointer-events:none}
+body[data-skin] #player:fullscreen>.cosmos{z-index:-2}
+body[data-skin] .app-shell :is(.brand-mark,.account-avatar){background:radial-gradient(circle at 23% 15%,rgb(var(--scene-glow)/.24),rgb(var(--scene-tone)/.08) 70%);color:var(--scene-accent);box-shadow:inset 1px 1px 1px rgb(var(--scene-glow)/.27),0 5px 23px rgb(var(--scene-tone)/.10)}
+body[data-skin] :is(.mode-switch,.language-picker,.segmented,.account-tabs){background:var(--scene-field);box-shadow:inset 0 1px 1px rgb(var(--scene-glow)/.07),0 7px 22px #0000000d}
+body[data-skin] :is(.soft-button,.history-nav,.journey-trigger,.skin-trigger,.ui-language-toggle,.account-entry,.account-soft-button,.account-close,.skin-picker-close,.library-badge,.service-status.voice-connect){background:var(--scene-soft);color:var(--scene-muted);box-shadow:inset 0 1px 1px rgb(var(--scene-glow)/.12),0 5px 18px #00000012}
+body[data-skin] :is(.mode-switch button,.segmented button,.account-tabs button){color:var(--scene-dim)}
+body[data-skin] :is(.mode-switch button.selected,.segmented button.selected,.account-tabs button[aria-selected="true"],.library-row.active,.word-row.active,.skin-card.is-selected){color:var(--scene-strong);background:var(--scene-selected);box-shadow:inset 0 1px 1px rgb(var(--scene-glow)/.20),0 4px 12px #00000015}
+body[data-skin] :is(.icon-button,.new-folder,.tree-heading,.sidebar-shortcuts button,.sidebar-rail,.tree-subtitle,.library-row>button:first-child,.language-picker,.language-picker select,.skin-picker-status){color:var(--scene-muted)}
+body[data-skin] :is(.icon-button:hover,.icon-button.active,.soft-button:hover,.history-nav:hover,.journey-trigger:hover,.skin-trigger:hover,.account-entry:hover,.skin-picker-close:hover,.account-soft-button:hover){color:var(--scene-strong);background:var(--scene-selected);box-shadow:inset 0 1px 1px rgb(var(--scene-glow)/.18)}
+body[data-skin] :is(.panel-title h2>span:first-child,.tiny-star,.control-group output,.word-row.active .row-index,.account-card-symbol,.account-avatar-edit){color:var(--scene-accent)}
+body[data-skin] :is(.primary,.account-primary){background:var(--scene-primary);color:var(--scene-ink);box-shadow:inset 0 1px 1px #ffffff72,0 6px 22px rgb(var(--scene-tone)/.19)}
+body[data-skin] .play-button{background:radial-gradient(circle at 28% 19%,var(--scene-strong),var(--scene-accent) 52%,var(--scene-button-end));color:var(--scene-ink);box-shadow:inset 0 1px 2px #ffffff85,inset 0 -2px 4px #00000012,0 7px 28px rgb(var(--scene-glow)/.17)}
+body[data-skin] .play-button:hover{filter:brightness(1.06);box-shadow:inset 0 1px 2px #fff9,0 9px 32px rgb(var(--scene-glow)/.24)}
+body[data-skin] :is(.library-row .lib-dot,.sound-wave i,.storage-bar i){background:var(--scene-accent)}
+body[data-skin] .library-row.active .lib-dot{background:var(--scene-strong);box-shadow:0 0 9px rgb(var(--scene-glow)/.40)}
+body[data-skin] #current-word{color:var(--scene-text);text-shadow:0 0 13px rgb(var(--scene-glow)/.17),0 0 32px rgb(var(--scene-glow)/.095),0 0 58px rgb(var(--scene-tone)/.07)}
+body[data-skin] :is(.phonetic-row,.word-meaning,.control-group>label,.control-options label,.input-heading,.account-field){color:var(--scene-muted)}
+body[data-skin] :is(.word-meaning>span:first-child,.count-badge,.history-nav>span:last-child){color:var(--scene-dim);background:rgb(var(--scene-glow)/.07)}
+body[data-skin] :is(.word-overline,.live-status,.timeline,.player-caption,.definition,.hint,.eyebrow,.brand small,.tree-heading small,.library-row .lib-count,.storage-card,.storage-card p,.storage-card small,.range-labels,.control-group>label>span,.list-tools>span,.input-heading small,.word-row .row-index,.word-row .row-meaning,.word-row .row-pos,.account-lead,.account-kicker,.account-small,.account-local-note,.account-local-note>span,.account-profile-hero p,.account-folder-card p,.account-folder-card .account-small,.account-text-button,.account-members-heading>span,.account-member-info>span,.skin-picker-description,.skin-picker-note,.skin-picker-kicker,.skin-credits){color:var(--scene-dim)}
+body[data-skin] :is(.listening-note,.listening-note p,.listening-note small){color:var(--scene-dim);background:none}
+body[data-skin] :is(.sidebar-search,.input-panel textarea,.list-tools input,#modal input:not([type=checkbox]),#modal textarea,#modal select,.account-field input,.account-field select){color:var(--scene-text);background:var(--scene-field);box-shadow:inset 0 1px 5px #00000020,inset 0 1px 1px rgb(var(--scene-glow)/.055)}
+body[data-skin] .sidebar-search input{color:var(--scene-text);background:transparent}
+body[data-skin] :is(.app-shell,#modal,.account-dialog) :is(input,textarea)::placeholder{color:var(--scene-dim)}
+body[data-skin] :is(.app-shell,#modal,.account-dialog) select option{background:rgb(var(--scene-panel));color:var(--scene-text)}
+body[data-skin] :is(.sidebar-search:focus-within,#spelling-form:focus-within,.account-field input:focus,.account-field select:focus){background:var(--scene-soft);box-shadow:0 0 0 3px rgb(var(--scene-glow)/.08),0 0 26px rgb(var(--scene-tone)/.08)}
+body[data-skin] #spelling-form{background:var(--scene-soft)}
+body[data-skin] #spelling-form::before{background:linear-gradient(125deg,rgb(var(--scene-glow)/.34),transparent 34%,transparent 72%,rgb(var(--scene-tone)/.23))}
+body[data-skin] #spelling-form:focus-within::before{background:linear-gradient(125deg,rgb(var(--scene-glow)/.65),rgb(var(--scene-glow)/.12) 28%,transparent 52%,rgb(var(--scene-tone)/.45))}
+body[data-skin] #spelling-input{color:var(--scene-text);caret-color:var(--scene-accent)}
+body[data-skin] .spell-slot.is-empty:not(.is-wrong)::after{background:linear-gradient(90deg,rgb(var(--scene-glow)/.25),rgb(var(--scene-glow)/.75),rgb(var(--scene-tone)/.35));box-shadow:0 0 11px rgb(var(--scene-glow)/.16)}
+body[data-skin] .app-shell input[type=range]{background:linear-gradient(90deg,rgb(var(--scene-glow)/.48),rgb(var(--scene-tone)/.18) 55%,rgb(var(--scene-glow)/.10))}
+body[data-skin] .app-shell input[type=range]::-webkit-slider-thumb{background:radial-gradient(circle at 35% 25%,var(--scene-strong),var(--scene-accent) 65%,var(--scene-button-end));box-shadow:0 0 10px rgb(var(--scene-glow)/.18),0 1px 3px #0004}
+body[data-skin] .app-shell input[type=range]::-moz-range-thumb{background:var(--scene-accent);box-shadow:0 0 10px rgb(var(--scene-glow)/.18)}
+body[data-skin] .switch{background:rgb(var(--scene-tone)/.26)}
+body[data-skin] .switch:checked{background:linear-gradient(135deg,rgb(var(--scene-glow)/.6),rgb(var(--scene-tone)/.65))}
+body[data-skin] .switch::after{background:var(--scene-muted)}
+body[data-skin] .switch:checked::after{background:var(--scene-strong)}
+body[data-skin] :is(#modal,.account-dialog,.skin-dialog){color:var(--scene-text);background:var(--scene-dialog);box-shadow:inset 1px 1px 1px rgb(var(--scene-glow)/.32),inset -1px -1px 1px rgb(var(--scene-tone)/.11),0 30px 120px #000a,0 0 70px rgb(var(--scene-tone)/.05);backdrop-filter:blur(20px) saturate(115%);-webkit-backdrop-filter:blur(20px) saturate(115%);scrollbar-color:rgb(var(--scene-glow)/.22) transparent}
+body[data-skin] :is(#modal,.account-dialog,.skin-dialog)::backdrop{background:rgb(var(--scene-base)/.64);backdrop-filter:none;-webkit-backdrop-filter:none}
+body[data-skin] :is(#modal,.account-dialog,.skin-dialog) :is(.glass,.mode-switch,.segmented,.account-tabs){backdrop-filter:none;-webkit-backdrop-filter:none}
+body[data-skin] :is(.account-notice,.account-folder-card,.account-approval-policy,.account-member,.account-member-status,.skin-card,.settings-section,.history-row){background:var(--scene-soft);color:var(--scene-muted)}
+body[data-skin] :is(.account-notice>span,.account-member-info strong,.account-policy-status,.skin-card-title){color:var(--scene-muted)}
+body[data-skin] :is(.skin-card-caption,.skin-card-status){color:var(--scene-dim)}
+body[data-skin] .skin-card.is-selected .skin-card-status{color:var(--scene-accent)}
+body[data-skin] .skin-selected-mark{background:var(--scene-strong);color:var(--scene-ink)}
+body[data-skin] .account-auth-orbit>svg{color:var(--scene-accent);filter:drop-shadow(0 0 8px rgb(var(--scene-glow)/.19))}
+body[data-skin] .account-auth-orbit::before{background:radial-gradient(ellipse,rgb(var(--scene-glow)/.09),transparent 65%)}
+body[data-skin] .account-orbit-dot{fill:var(--scene-accent)}
+body[data-skin] .ui-language-toggle:is([data-language=zh]) .ui-choice-zh,body[data-skin] .ui-language-toggle:is([data-language=en]) .ui-choice-en{color:var(--scene-strong);text-shadow:0 0 9px rgb(var(--scene-glow)/.20)}
+body[data-skin] .ui-language-divider{background:linear-gradient(transparent,rgb(var(--scene-glow)/.25),transparent)}
+body[data-skin] .toast{color:var(--scene-text);background:var(--scene-dialog);box-shadow:inset 0 1px 1px rgb(var(--scene-glow)/.2),0 12px 38px #0004;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+body[data-skin] .app-shell footer{color:var(--scene-quote);text-shadow:0 0 20px rgb(var(--scene-glow)/.09)}
+body[data-skin] .app-shell footer p:first-child{color:var(--scene-quote)}
+body[data-skin] :is(.app-shell,#modal,.account-dialog,.skin-dialog) :focus-visible{outline-color:var(--scene-accent)}
+body[data-skin] .word-rows{scrollbar-color:rgb(var(--scene-glow)/.25) transparent}
+body[data-skin] :is(#modal-content,.history-row strong,.settings-section h3,.account-member-info strong){color:var(--scene-text)}
+body[data-skin] :is(.settings-section .path-label,.test-score strong){color:var(--scene-accent)}
+body[data-skin] :is(#shortcut-hint,.empty-state,.test-progress,.account-empty,.account-member-protected){color:var(--scene-dim)}
+body[data-skin] .account-dialog .account-avatar{background:radial-gradient(circle at 23% 15%,rgb(var(--scene-glow)/.24),rgb(var(--scene-tone)/.08) 70%);color:var(--scene-accent);box-shadow:inset 1px 1px 1px rgb(var(--scene-glow)/.27),0 5px 23px rgb(var(--scene-tone)/.10)}
+body[data-skin] :is(#modal .settings-section p,#modal .history-row small,#modal .modal-field,#modal .modal-field label){color:var(--scene-muted)}
+body[data-skin] .account-member-status.is-approved{color:#b5d8cc;background:#8ac0ad0a}
+body[data-skin] .account-member-status.is-pending{color:#ddc7a9;background:#dfb9860a}
+body[data-skin] .account-member-status.is-rejected{color:#e1afb7;background:#d389a00a}
+/* Correct/error gradients remain semantic and consistent across every skin. */
+body[data-skin] .spell-slot.is-correct,body[data-skin] .spelling-correct .spell-slot:not(.is-empty){background-image:linear-gradient(155deg,#c7eaff 5%,#89d9ee 43%,#a8e9cf 96%);text-shadow:0 0 14px #82d8df2b,0 0 32px #79d2ba26}
+body[data-skin] .spell-slot.is-wrong{background-image:linear-gradient(155deg,#ffd0ae 5%,#f4a080 48%,#ed8797 98%);text-shadow:0 0 14px #efb28a29,0 0 31px #dc87832b}
+@media(forced-colors:active){body[data-skin] .app-shell .glass::before,body[data-skin] #spelling-form::before{display:none}body[data-skin] :is(.spell-slot.is-correct,.spell-slot.is-wrong,.spelling-correct .spell-slot){background:none;color:CanvasText;-webkit-text-fill-color:CanvasText;text-shadow:none}}

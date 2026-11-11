@@ -1,0 +1,26 @@
+{
+  "file": "sakura.webp",
+  "title": "Cherry blossoms light up a river at night",
+  "author": "Takashi Miyazaki",
+  "authorUrl": "https://unsplash.com/@miyatankun",
+  "sourceUrl": "https://unsplash.com/photos/cherry-blossoms-light-up-a-river-at-night-YpeAO8fNJkY",
+  "originalUrl": "https://images.unsplash.com/photo-1744204876894-2591d3b1f42e?auto=format&fit=max&fm=jpg&q=90&w=3000",
+  "license": "Unsplash License",
+  "licenseUrl": "https://unsplash.com/license",
+  "publishedAt": "2025-04-09",
+  "downloadedAt": "2026-11-11T02:55:11.054156+00:00",
+  "originalDimensions": {
+    "width": 3000,
+    "height": 1875
+  },
+  "originalSha256": "18c366e2372c178a284b8ef84006803a3585dddc4d5cac9b44da984804961fbe",
+  "changes": "WebP encoding only at the downloaded 3000-pixel width; no cropping, colour edits, generated additions or retouching.",
+  "depiction": "Pink and violet cherry blossom trees over the Meguro River in Tokyo at night. The photograph has no moon; any moon in the application is a separate CSS overlay.",
+  "attribution": "Photo by Takashi Miyazaki on Unsplash. Converted to WebP.",
+  "dimensions": {
+    "width": 3000,
+    "height": 1875
+  },
+  "bytes": 1380304,
+  "sha256": "47248224450411c70c52dabf30e46e5ca7a27ead4f47f4cc3a774e35b324d4cc"
+}

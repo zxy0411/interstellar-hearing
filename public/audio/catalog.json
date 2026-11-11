@@ -1,0 +1,712 @@
+{
+  "version": 1,
+  "entries": {
+    "en:survival": {
+      "word": "survival",
+      "language": "en",
+      "recordings": {
+        "en-GB": {
+          "src": "audio/files/ee21cda993b2fc1430b88a7a073d234bf937fb238358c24b135693abe5792d1b.wav",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Vealhurl-survival.wav",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "Speaker: Vealhurl Recorder: Vealhurl",
+          "locale": "en-GB",
+          "word": "survival",
+          "language": "en",
+          "file": "LL-Q1860 (eng)-Vealhurl-survival.wav",
+          "mime": "audio/wav",
+          "bytes": 109356,
+          "sha1": "9bfb24fce4e11084f072fcee0c04e79af3752e12",
+          "duration": 1.1386666666666667,
+          "accentEvidence": "Southern England",
+          "regionVerified": true,
+          "retrievedAt": "2026-11-10T09:46:41.364Z",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/LL-Q1860_%28eng%29-Vealhurl-survival.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sha256": "ee21cda993b2fc1430b88a7a073d234bf937fb238358c24b135693abe5792d1b",
+          "modifications": "None; original audio bytes retained"
+        }
+      },
+      "checkedAt": "2026-11-10T09:46:38.966Z",
+      "status": "available"
+    },
+    "en:universe": {
+      "word": "universe",
+      "language": "en",
+      "recordings": {},
+      "checkedAt": "2026-11-10T09:46:47.038Z",
+      "status": "error",
+      "error": "词典录音服务暂时无法连接，请检查网络"
+    },
+    "en:serendipity": {
+      "word": "serendipity",
+      "language": "en",
+      "recordings": {
+        "en-GB": {
+          "src": "audio/files/ab17a9f1f06c228185f598d13bcb1812c03725a43110ac58f839956859fa3d2f.ogg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:En-uk-serendipity.ogg",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "attribution": "Soundguys",
+          "locale": "en-GB",
+          "word": "serendipity",
+          "language": "en",
+          "file": "En-uk-serendipity.ogg",
+          "mime": "application/ogg",
+          "bytes": 27742,
+          "sha1": "df5f0f569cefb833ec5e4e12097a79d271891193",
+          "duration": 1.6370068027210884,
+          "accentEvidence": "London",
+          "regionVerified": true,
+          "retrievedAt": "2026-11-10T09:47:03.017Z",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/En-uk-serendipity.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sha256": "ab17a9f1f06c228185f598d13bcb1812c03725a43110ac58f839956859fa3d2f",
+          "modifications": "None; original audio bytes retained"
+        },
+        "en-US": {
+          "src": "audio/files/d174170bedb2c123a9da50cef4136dd8bc736b9bd08f3ba387d2a3f3dd1d337f.ogg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:En-us-serendipity.ogg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "Dvortygirl",
+          "locale": "en-US",
+          "word": "serendipity",
+          "language": "en",
+          "file": "En-us-serendipity.ogg",
+          "mime": "application/ogg",
+          "bytes": 15497,
+          "sha1": "69e978af91c09ac2e90cc4d8147c14bdf7da4e8c",
+          "duration": 0.9984580498866213,
+          "accentEvidence": "California",
+          "regionVerified": true,
+          "retrievedAt": "2026-11-10T09:47:03.017Z",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/En-us-serendipity.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sha256": "d174170bedb2c123a9da50cef4136dd8bc736b9bd08f3ba387d2a3f3dd1d337f",
+          "modifications": "None; original audio bytes retained"
+        }
+      },
+      "checkedAt": "2026-11-10T09:46:56.243Z",
+      "status": "available"
+    },
+    "en:galaxy": {
+      "word": "galaxy",
+      "language": "en",
+      "recordings": {
+        "en-US": {
+          "src": "audio/files/3eafd7cccb82e60659ad87b7f656be0bd24c37985f6fb76410e93f9a367d5706.ogg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:En-us-galaxy.ogg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "Sylvanmoon",
+          "locale": "en-US",
+          "word": "galaxy",
+          "language": "en",
+          "file": "En-us-galaxy.ogg",
+          "mime": "application/ogg",
+          "bytes": 20500,
+          "sha1": "99d3dcaa0b8178d6346f9964cc88a8ce26477fcf",
+          "duration": 1.0448979591836736,
+          "accentEvidence": "US",
+          "regionVerified": true,
+          "retrievedAt": "2026-11-10T09:47:18.651Z",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/En-us-galaxy.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sha256": "3eafd7cccb82e60659ad87b7f656be0bd24c37985f6fb76410e93f9a367d5706",
+          "modifications": "None; original audio bytes retained"
+        }
+      },
+      "checkedAt": "2026-11-10T09:47:09.200Z",
+      "status": "available"
+    },
+    "en:starlight": {
+      "word": "starlight",
+      "language": "en",
+      "recordings": {
+        "en-GB": {
+          "src": "audio/files/6d3db1d02984a8afd440b8b802d2e305bfd79cb94404f63e1febfb0ae440f601.wav",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Vealhurl-starlight.wav",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "Speaker: Vealhurl Recorder: Vealhurl",
+          "locale": "en-GB",
+          "word": "starlight",
+          "language": "en",
+          "file": "LL-Q1860 (eng)-Vealhurl-starlight.wav",
+          "mime": "audio/wav",
+          "bytes": 101164,
+          "sha1": "d118bb033584ad58f7718ed90ba2229ccba2b5da",
+          "duration": 1.0533333333333332,
+          "accentEvidence": "Southern England",
+          "regionVerified": true,
+          "retrievedAt": "2026-11-10T09:47:30.610Z",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/LL-Q1860_%28eng%29-Vealhurl-starlight.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sha256": "6d3db1d02984a8afd440b8b802d2e305bfd79cb94404f63e1febfb0ae440f601",
+          "modifications": "None; original audio bytes retained"
+        }
+      },
+      "checkedAt": "2026-11-10T09:47:24.634Z",
+      "status": "available"
+    },
+    "en:explore": {
+      "word": "explore",
+      "language": "en",
+      "recordings": {
+        "en-US": {
+          "src": "audio/files/6ddf1f560d8146d19b8ee6a253c6d8a95458d659ed91cd39b9f8a846900d4339.ogg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:En-us-explore.ogg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "Dvortygirl",
+          "locale": "en-US",
+          "word": "explore",
+          "language": "en",
+          "file": "En-us-explore.ogg",
+          "mime": "application/ogg",
+          "bytes": 14219,
+          "sha1": "9b4c66399b61159dabfe6798c94a68b6225c838d",
+          "duration": 1.15,
+          "accentEvidence": "US",
+          "regionVerified": true,
+          "retrievedAt": "2026-11-10T09:47:33.247Z",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/En-us-explore.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sha256": "6ddf1f560d8146d19b8ee6a253c6d8a95458d659ed91cd39b9f8a846900d4339",
+          "modifications": "None; original audio bytes retained"
+        }
+      },
+      "checkedAt": "2026-11-10T09:47:32.489Z",
+      "status": "available"
+    },
+    "en:hello": {
+      "word": "hello",
+      "language": "en",
+      "recordings": {
+        "en-GB": {
+          "src": "audio/files/66b7f2dc3fbafad92d49d365946b0c98da22d88bb2541d3b9ead25aa2ccfcf15.ogg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:En-uk-hello.ogg",
+          "license": "CC BY 3.0 us",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+          "attribution": "Association Shtooka, Judith Franck",
+          "locale": "en-GB",
+          "word": "hello",
+          "language": "en",
+          "file": "En-uk-hello.ogg",
+          "mime": "application/ogg",
+          "bytes": 14145,
+          "sha1": "b7b60280c9a307cb762a72412f8f4d55047680ba",
+          "duration": 1.1,
+          "accentEvidence": "UK",
+          "regionVerified": true,
+          "retrievedAt": "2026-11-10T09:47:35.678Z",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/En-uk-hello.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sha256": "66b7f2dc3fbafad92d49d365946b0c98da22d88bb2541d3b9ead25aa2ccfcf15",
+          "modifications": "None; original audio bytes retained"
+        }
+      },
+      "checkedAt": "2026-11-10T09:47:34.611Z",
+      "status": "error",
+      "error": "Audio HTTP 429"
+    },
+    "ko:안녕하세요": {
+      "word": "안녕하세요",
+      "language": "ko",
+      "recordings": {
+        "ko-KR": {
+          "src": "audio/files/66b3e40384be71ad030b53da94e6bf5df3590b846c731ddf07b990378fa69ab8.ogg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94.ogg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "HappyMidnight",
+          "locale": "ko-KR",
+          "word": "안녕하세요",
+          "language": "ko",
+          "file": "안녕하세요.ogg",
+          "mime": "application/ogg",
+          "bytes": 10376,
+          "sha1": "eb7be0000c51a1578af37ade7cc6a795c3855034",
+          "duration": 1.7040816326530612,
+          "accentEvidence": "",
+          "regionVerified": false,
+          "retrievedAt": "2026-11-10T09:50:04.194Z",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sha256": "66b3e40384be71ad030b53da94e6bf5df3590b846c731ddf07b990378fa69ab8",
+          "modifications": "None; original audio bytes retained"
+        }
+      },
+      "checkedAt": "2026-11-10T09:49:56.845Z",
+      "status": "available"
+    },
+    "ko:우주": {
+      "word": "우주",
+      "language": "ko",
+      "recordings": {},
+      "checkedAt": "2026-11-10T09:53:38.803Z",
+      "status": "missing"
+    },
+    "ko:별빛": {
+      "word": "별빛",
+      "language": "ko",
+      "recordings": {},
+      "checkedAt": "2026-11-10T09:53:39.057Z",
+      "status": "missing"
+    },
+    "ko:기억": {
+      "word": "기억",
+      "language": "ko",
+      "recordings": {},
+      "checkedAt": "2026-11-10T09:53:39.323Z",
+      "status": "missing"
+    },
+    "ja:こんにちは": {
+      "word": "こんにちは",
+      "language": "ja",
+      "recordings": {},
+      "checkedAt": "2026-11-10T09:53:39.586Z",
+      "status": "missing"
+    },
+    "ja:宇宙": {
+      "word": "宇宙",
+      "language": "ja",
+      "recordings": {},
+      "checkedAt": "2026-11-10T09:53:39.848Z",
+      "status": "missing"
+    },
+    "ja:星空": {
+      "word": "星空",
+      "language": "ja",
+      "recordings": {},
+      "checkedAt": "2026-11-10T09:53:40.114Z",
+      "status": "missing"
+    },
+    "ja:記憶": {
+      "word": "記憶",
+      "language": "ja",
+      "recordings": {},
+      "checkedAt": "2026-11-10T09:50:37.962Z",
+      "status": "missing"
+    },
+    "de:sternenhimmel": {
+      "word": "Sternenhimmel",
+      "language": "de",
+      "recordings": {
+        "de-DE": {
+          "src": "audio/files/4699a56670029052c00a76dd829d561e80bd13babd7d88c42cad030022af09b4.ogg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-Sternenhimmel.ogg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "Jeuwre",
+          "locale": "de-DE",
+          "word": "Sternenhimmel",
+          "language": "de",
+          "file": "De-Sternenhimmel.ogg",
+          "mime": "application/ogg",
+          "bytes": 21843,
+          "sha1": "6421d033a236df7438994fa39cbdd0f29feafb36",
+          "duration": 2.26,
+          "accentEvidence": "> (>)",
+          "regionVerified": false,
+          "retrievedAt": "2026-11-10T09:50:48.402Z",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/De-Sternenhimmel.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sha256": "4699a56670029052c00a76dd829d561e80bd13babd7d88c42cad030022af09b4",
+          "modifications": "None; original audio bytes retained"
+        }
+      },
+      "checkedAt": "2026-11-10T09:50:44.683Z",
+      "status": "available"
+    },
+    "de:erinnerung": {
+      "word": "Erinnerung",
+      "language": "de",
+      "recordings": {
+        "de-DE": {
+          "src": "audio/files/d10905c617f0496d06e8088e651087e7e14720dc2e18cf2b8d0dcab717b996b5.ogg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-Erinnerung.ogg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "Jeuwre",
+          "locale": "de-DE",
+          "word": "Erinnerung",
+          "language": "de",
+          "file": "De-Erinnerung.ogg",
+          "mime": "application/ogg",
+          "bytes": 19946,
+          "sha1": "8de1532d09550283d21777c8556f61483cf79555",
+          "duration": 2.1,
+          "accentEvidence": "> (>)",
+          "regionVerified": false,
+          "retrievedAt": "2026-11-10T09:53:38.802Z",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/De-Erinnerung.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sha256": "d10905c617f0496d06e8088e651087e7e14720dc2e18cf2b8d0dcab717b996b5",
+          "modifications": "None; original audio bytes retained"
+        }
+      },
+      "checkedAt": "2026-11-10T09:53:40.375Z",
+      "status": "available"
+    },
+    "de:universum": {
+      "word": "Universum",
+      "language": "de",
+      "recordings": {
+        "de-DE": {
+          "src": "audio/files/b0e28ae7ee650b554d9402a9d05ed88fac585523b7803068e4faa7352fb433de.ogg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:De-Universum.ogg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "attribution": "Kampy",
+          "locale": "de-DE",
+          "word": "Universum",
+          "language": "de",
+          "file": "De-Universum.ogg",
+          "mime": "application/ogg",
+          "bytes": 20794,
+          "sha1": "5ee7ab6cce32c3746bad8c25b302c152fe7f5c31",
+          "duration": 0.9287981859410431,
+          "accentEvidence": "",
+          "regionVerified": false,
+          "retrievedAt": "2026-11-10T09:51:05.848Z",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/De-Universum.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sha256": "b0e28ae7ee650b554d9402a9d05ed88fac585523b7803068e4faa7352fb433de",
+          "modifications": "None; original audio bytes retained"
+        }
+      },
+      "checkedAt": "2026-11-10T09:50:55.167Z",
+      "status": "available"
+    },
+    "de:entdecken": {
+      "word": "entdecken",
+      "language": "de",
+      "recordings": {},
+      "checkedAt": "2026-11-10T09:53:44.530Z",
+      "status": "error",
+      "error": "Audio HTTP 429"
+    },
+    "it:universo": {
+      "word": "universo",
+      "language": "it",
+      "recordings": {},
+      "checkedAt": "2026-11-10T09:51:21.595Z",
+      "status": "error",
+      "error": "词典录音服务暂时无法连接，请检查网络"
+    },
+    "it:stella": {
+      "word": "stella",
+      "language": "it",
+      "recordings": {
+        "it-IT": {
+          "src": "audio/files/2973685b71ac62f9906d6ae1aa8332fb83076bdde1fd9a4de8dd00a9b20295da.ogg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:It-una_stella.ogg",
+          "license": "CC BY 3.0 us",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+          "attribution": "Marta Carbone, Association Shtooka",
+          "locale": "it-IT",
+          "word": "stella",
+          "language": "it",
+          "file": "It-una stella.ogg",
+          "mime": "application/ogg",
+          "bytes": 20302,
+          "sha1": "a2e8389d7a58df82d13e5679977817e900ffb695",
+          "duration": 1.65,
+          "accentEvidence": "Audio (Milan)",
+          "regionVerified": false,
+          "retrievedAt": "2026-11-10T09:51:33.974Z",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/It-una_stella.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sha256": "2973685b71ac62f9906d6ae1aa8332fb83076bdde1fd9a4de8dd00a9b20295da",
+          "modifications": "None; original audio bytes retained"
+        }
+      },
+      "checkedAt": "2026-11-10T09:51:26.882Z",
+      "status": "available"
+    },
+    "it:ricordo": {
+      "word": "ricordo",
+      "language": "it",
+      "recordings": {},
+      "checkedAt": "2026-11-10T09:51:38.746Z",
+      "status": "missing"
+    },
+    "it:meraviglia": {
+      "word": "meraviglia",
+      "language": "it",
+      "recordings": {},
+      "checkedAt": "2026-11-10T09:51:39.815Z",
+      "status": "error",
+      "error": "fetch failed"
+    },
+    "fr:bonjour": {
+      "word": "bonjour",
+      "language": "fr",
+      "recordings": {
+        "fr-FR": {
+          "src": "audio/files/9f60a623dd5ea98f1a57f81ef93f220e2d4e0193ae4275d596453a3428d8d925.ogg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fr-bonjour.ogg",
+          "license": "CC BY 2.0 fr",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+          "attribution": "Vion Nicolas",
+          "locale": "fr-FR",
+          "word": "bonjour",
+          "language": "fr",
+          "file": "Fr-bonjour.ogg",
+          "mime": "application/ogg",
+          "bytes": 14763,
+          "sha1": "242bf620d6120b3fcfd82a62196e529d8c79afd7",
+          "duration": 1.2,
+          "accentEvidence": "Paris",
+          "regionVerified": true,
+          "retrievedAt": "2026-11-10T09:51:57.996Z",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Fr-bonjour.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sha256": "9f60a623dd5ea98f1a57f81ef93f220e2d4e0193ae4275d596453a3428d8d925",
+          "modifications": "None; original audio bytes retained"
+        }
+      },
+      "checkedAt": "2026-11-10T09:51:51.979Z",
+      "status": "available"
+    },
+    "fr:étoile": {
+      "word": "étoile",
+      "language": "fr",
+      "recordings": {},
+      "checkedAt": "2026-11-10T09:51:59.141Z",
+      "status": "error",
+      "error": "fetch failed"
+    },
+    "fr:univers": {
+      "word": "univers",
+      "language": "fr",
+      "recordings": {},
+      "checkedAt": "2026-11-10T09:52:20.663Z",
+      "status": "error",
+      "error": "词典录音服务暂时无法连接，请检查网络"
+    },
+    "fr:mémoire": {
+      "word": "mémoire",
+      "language": "fr",
+      "recordings": {},
+      "checkedAt": "2026-11-10T09:52:27.455Z",
+      "status": "error",
+      "error": "词典录音服务暂时无法连接，请检查网络"
+    },
+    "fr:rêver": {
+      "word": "rêver",
+      "language": "fr",
+      "recordings": {},
+      "checkedAt": "2026-11-10T09:52:32.734Z",
+      "status": "error",
+      "error": "词典录音服务暂时无法连接，请检查网络"
+    },
+    "ja:日本": {
+      "word": "日本",
+      "language": "ja",
+      "recordings": {
+        "ja-JP": {
+          "src": "audio/files/fa53c1646fc561e6bbcb425ace0ee12b2df11b78298843be3054df965d26f925.ogg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ja-nihon(%E6%97%A5%E6%9C%AC).ogg",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "attribution": "TAKASUGI Shinji",
+          "locale": "ja-JP",
+          "word": "日本",
+          "language": "ja",
+          "file": "Ja-nihon(日本).ogg",
+          "mime": "application/ogg",
+          "bytes": 22583,
+          "sha1": "d9eec13022571b5b4aa15d17fadfebac0939c3a5",
+          "duration": 1.29,
+          "accentEvidence": "",
+          "regionVerified": false,
+          "retrievedAt": "2026-11-10T10:04:05.692Z",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Ja-nihon%28%E6%97%A5%E6%9C%AC%29.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sha256": "fa53c1646fc561e6bbcb425ace0ee12b2df11b78298843be3054df965d26f925",
+          "modifications": "None; original audio bytes retained"
+        }
+      },
+      "checkedAt": "2026-11-10T10:04:05.692Z",
+      "status": "available"
+    },
+    "ja:ありがとう": {
+      "word": "ありがとう",
+      "language": "ja",
+      "recordings": {
+        "ja-JP": {
+          "src": "audio/files/cbdcca3f36d8a4642a60df828b871e5f74133d66569268b4f6f63a3b8a1d7165.oga",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ja-arigato.oga",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "attribution": "Fête",
+          "locale": "ja-JP",
+          "word": "ありがとう",
+          "language": "ja",
+          "file": "Ja-arigato.oga",
+          "mime": "application/ogg",
+          "bytes": 22620,
+          "sha1": "374b38358a616ce6a71a24b155bb50dceb7e6560",
+          "duration": 1.25,
+          "accentEvidence": "Tokyo",
+          "regionVerified": true,
+          "retrievedAt": "2026-11-10T10:04:05.692Z",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Ja-arigato.oga?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sha256": "cbdcca3f36d8a4642a60df828b871e5f74133d66569268b4f6f63a3b8a1d7165",
+          "modifications": "None; original audio bytes retained"
+        }
+      },
+      "checkedAt": "2026-11-10T10:04:09.893Z",
+      "status": "available"
+    },
+    "en:accurate": {
+      "word": "accurate",
+      "language": "en",
+      "recordings": {
+        "en-US": {
+          "src": "audio/files/4330bc1a0087195847f1f0b4cf01fd96dae7827a3799a0d2ffb6352e70c84646.ogg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:En-us-accurate.ogg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "Neskaya",
+          "locale": "en-US",
+          "word": "accurate",
+          "language": "en",
+          "file": "En-us-accurate.ogg",
+          "mime": "application/ogg",
+          "bytes": 29207,
+          "sha1": "5e88e51d9b167a8b6414203a66159d9339fd55bc",
+          "duration": 0.8010884353741496,
+          "accentEvidence": "Southern California",
+          "regionVerified": true,
+          "retrievedAt": "2026-11-10T10:04:55.321Z",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/En-us-accurate.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sha256": "4330bc1a0087195847f1f0b4cf01fd96dae7827a3799a0d2ffb6352e70c84646",
+          "modifications": "None; original audio bytes retained"
+        }
+      },
+      "checkedAt": "2026-11-10T10:04:55.322Z",
+      "status": "available"
+    },
+    "en:action": {
+      "word": "action",
+      "language": "en",
+      "recordings": {
+        "en-GB": {
+          "src": "audio/files/a4268cbb984a6c7c8486e1c6a51a584cee899064b8a2c09d18ad75038d58e76d.wav",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Vealhurl-action.wav",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "Speaker: Vealhurl Recorder: Vealhurl",
+          "locale": "en-GB",
+          "word": "action",
+          "language": "en",
+          "file": "LL-Q1860 (eng)-Vealhurl-action.wav",
+          "mime": "audio/wav",
+          "bytes": 101164,
+          "sha1": "b5e4993b2835c3e579f9d5234f1af28fb53804e1",
+          "duration": 1.0533333333333332,
+          "accentEvidence": "Southern England",
+          "regionVerified": true,
+          "retrievedAt": "2026-11-10T10:04:55.322Z",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/LL-Q1860_%28eng%29-Vealhurl-action.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sha256": "a4268cbb984a6c7c8486e1c6a51a584cee899064b8a2c09d18ad75038d58e76d",
+          "modifications": "None; original audio bytes retained"
+        },
+        "en-US": {
+          "src": "audio/files/0c9a215979e377aa8a5b73d3b66eec87058d69086916eaf6e6e05174460814d8.ogg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:En-us-action.ogg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "Dvortygirl",
+          "locale": "en-US",
+          "word": "action",
+          "language": "en",
+          "file": "En-us-action.ogg",
+          "mime": "application/ogg",
+          "bytes": 11240,
+          "sha1": "8a038ff9131214d23f44e01be3546a9c94004195",
+          "duration": 0.626938775510204,
+          "accentEvidence": "US",
+          "regionVerified": true,
+          "retrievedAt": "2026-11-10T10:04:55.322Z",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/En-us-action.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "sha256": "0c9a215979e377aa8a5b73d3b66eec87058d69086916eaf6e6e05174460814d8",
+          "modifications": "None; original audio bytes retained"
+        }
+      },
+      "checkedAt": "2026-11-10T10:05:01.611Z",
+      "status": "available"
+    }
+  },
+  "coverage": {
+    "builtAt": "2026-11-10T10:05:12.247Z",
+    "targetWords": 1981,
+    "indexedWords": 32,
+    "queried": 23,
+    "missing": 8,
+    "unavailable": 9,
+    "unqueried": 1951,
+    "withAudio": 16,
+    "recordings": 18,
+    "byLanguage": {
+      "en": {
+        "checked": 9,
+        "queried": 7,
+        "withAudio": 8,
+        "missing": 0,
+        "unavailable": 2,
+        "recordings": 10,
+        "uk": 5,
+        "us": 5,
+        "both": 2
+      },
+      "ko": {
+        "checked": 4,
+        "queried": 4,
+        "withAudio": 1,
+        "missing": 3,
+        "unavailable": 0,
+        "recordings": 1,
+        "uk": 0,
+        "us": 0,
+        "both": 0
+      },
+      "ja": {
+        "checked": 6,
+        "queried": 6,
+        "withAudio": 2,
+        "missing": 4,
+        "unavailable": 0,
+        "recordings": 2,
+        "uk": 0,
+        "us": 0,
+        "both": 0
+      },
+      "de": {
+        "checked": 4,
+        "queried": 3,
+        "withAudio": 3,
+        "missing": 0,
+        "unavailable": 1,
+        "recordings": 3,
+        "uk": 0,
+        "us": 0,
+        "both": 0
+      },
+      "it": {
+        "checked": 4,
+        "queried": 2,
+        "withAudio": 1,
+        "missing": 1,
+        "unavailable": 2,
+        "recordings": 1,
+        "uk": 0,
+        "us": 0,
+        "both": 0
+      },
+      "fr": {
+        "checked": 5,
+        "queried": 1,
+        "withAudio": 1,
+        "missing": 0,
+        "unavailable": 4,
+        "recordings": 1,
+        "uk": 0,
+        "us": 0,
+        "both": 0
+      }
+    },
+    "scope": "Starter recordings only; remote Wikimedia lookup covers additional dictionary entries. Missing words and accents are not synthesized."
+  }
+}
